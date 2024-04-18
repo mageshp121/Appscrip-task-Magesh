@@ -1,0 +1,83 @@
+
+
+:root::-webkit-scrollbar{
+    display: none;
+  }
+:root {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+.body-control-section{
+    margin-top: 50px;
+    height: 45px;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-top: .1px solid rgb(204, 204, 204); /* Change red to the desired color */
+    border-bottom: .2px solid  rgb(204, 204, 204); /* Change red to the desired color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .body-control-section-first-child{
+    width: 20%;
+    display: flex;
+   justify-content: space-between;
+ }
+ .filter-controler{
+    text-underline-offset: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+ }
+ #wrapper, #right {
+    overflow: hidden;
+  }
+  #left {
+    float: left;
+    width: 25%;
+    
+  }
+  #right {
+    height: 900px;
+    padding: 5px;
+    overflow: auto;
+    padding-left: 6px;
+  }
+  #right::-webkit-scrollbar {
+    width: 0;  /* This will hide the scrollbar on Chrome/Safari */
+    display: none;  /* This will hide the scrollbar on Firefox */
+  }
+  .hide {
+    display: none;
+  }
+  
+ 
+  
+  .box {
+    background-color: #ccc;
+    padding: 20px;
+  }
+  
+
+  
+
+  /* Media Query for mobile screens */
+  @media only screen and (max-width: 600px) {
+    #left, #btn {
+      display: none;
+    }
+  
+    
+  }
+ .main-body-section{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1%;
+ } 
+ .total-items{
+    font-weight:bold;
+ }
+
+ 
