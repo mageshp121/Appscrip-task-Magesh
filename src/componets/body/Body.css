@@ -17,9 +17,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 30p;
  }
  .body-control-section-first-child{
-    width: 20%;
+    width: 28%;
     display: flex;
    justify-content: space-between;
  }
