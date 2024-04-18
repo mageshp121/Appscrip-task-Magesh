@@ -1,8 +1,8 @@
 .nav-down-main {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Align items horizontally (row-wise) */
-  align-items: center; /* Align items vertically (column-wise) */
+  justify-content: center; 
+  align-items: center; 
   margin-left: 25%;
   margin-right: 25%;
   font-family: "inter var", sans-serif;
@@ -13,12 +13,12 @@
 }
 
 h1 {
-  margin-bottom: 15px; /* Adjust margin bottom to reduce space */
+  margin-bottom: 15px; 
 }
 .p_music2 {
   font-family: "inter var", sans-serif;
-  margin-top: 0; /* Reset top margin */
-  margin-bottom: 0; /* Reset bottom margin */
+  margin-top: 0;
+  margin-bottom: 0; 
 }
 @media only screen and (max-width: 768px) {
   .nav-down-main {
@@ -42,7 +42,7 @@ span {
 }
 
 .nav-down-main-up {
-  display: none; /* Hide by default */
+  display: none; 
 }
 
 @media only screen and (max-width: 428px) {
